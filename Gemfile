@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
 # Use I18n
 gem 'devise-i18n'
+# Use PaperClip
+gem 'paperclip'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
