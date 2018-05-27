@@ -32,10 +32,11 @@
         </div>
     
         <div class="field">
-          <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+          <br>
+          <%= f.label :current_password %> <i>(Mot de passe actuel pour valider vos changements)</i><br />
           <%= f.password_field :current_password, autocomplete: "off", class: "form-control", placeholder: "Mot de passe actuel" %>
         </div>
-
+    
         <div class="actions">
           <%= f.submit "Enregistrer", class:"btn btn-primary" %>
         </div>
